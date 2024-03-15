@@ -1,0 +1,130 @@
+/*
+
+Material You 3 - Navigation Rail
+
+This component "Navigation Rail" has been built with 💚 by 
+Riccardo Debellini (riccardo.debellini@gmail.com - riccardo.debellini@liceobottoni.edu.it) 
+according to the Google guidelines on Material You available here "https://m3.material.io/components/navigation-rail/specs"
+
+*/
+
+/*MAIN COMPONENTS*/
+
+.navbar { /*the navigation rail itself*/
+    width: 88px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0px; /* "0px" = no border, "1px" = tight border*/
+    border-color:black;
+    border-right-style: solid;
+    text-align: center  ;
+    background-color: var(--surface-container);
+    font-family: Roboto,
+}
+.navbar .content { /*put inside this all the content of the rail*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    border-style: none;
+    margin-top: 20px;
+}
+.navbar .object { /*use this to specify the destinations - must contain icon, small spacer and text*/
+    height: auto;
+    position: relative;
+    margin: 0px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+/*INACTIVE COMPONENTS*/
+
+.navbar .text-inactive { /*use this for inactive destinations*/
+    position: relative;
+    height: auto;
+    margin: 0px;
+    margin-bottom: 4px !important;
+    color: var(--on-surface-variant) !important;
+    text-decoration: none !important;
+    font-size: 12px;
+    font-weight: bolder;
+
+}
+
+.navbar .icon-inactive { /*use this for inactive icons*/
+    position: relative;
+    height: 32px;
+    width: 56px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-inline: auto;
+    padding: auto;
+    background-color: var(--surface);
+    color: var(--on-surface-variant) !important;
+    border-radius: 1000px;
+    text-decoration: none !important;
+    margin-bottom: 4px !important;
+}
+
+
+/*ACTIVE COMPONENTS*/
+
+.navbar .text-active { /*use this for active destinations*/
+    position: relative;
+    height: auto;
+    margin: 0px;
+    color: var(--on-surface) !important;
+    text-decoration: none !important;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 4px !important;
+}
+.navbar .icon-active { /*use this for active icons*/
+    position: relative;
+    height: 32px;
+    width: 56px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-inline: auto;
+    padding: auto;
+    background-color: var(--secondary-container);
+    color: var(--on-secondary-container) !important;
+    border-radius: 1000px;
+    text-decoration: none !important;
+    margin-bottom: 4px !important;
+}
+
+
+/*SPACERS*/
+
+.navbar .spacer-small { /*use this for small spacing (between icons and texts)*/
+    position: relative;
+    height: 4px;
+}
+.navbar .spacer-big { /*use this for big spacing (between navigation destinations)*/
+    position: relative;
+    height: 14px;
+}
+
+
+/*MAIN FRAME*/
+
+.main {
+    font-family: Roboto;
+    color: var(--on-surface);
+    margin-left: 88px;
+    padding: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+      padding: 16px;
+    }
+  }
+
+.navbar .object:hover > .icon-inactive {
+    background-color: var(--surface-variant);
+    transition: background-color 0.2s ease-in-out;
+}

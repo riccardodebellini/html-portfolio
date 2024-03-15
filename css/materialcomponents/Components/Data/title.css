@@ -1,0 +1,38 @@
+.title {
+    width: auto;
+    height: 450px;
+    background-color: var(--primary);
+    border-radius: 12px;
+    padding: 12px; 
+}
+
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+    .title {
+      height: 325px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .title {
+      height: 250px;
+    }
+  }
+.title .text{
+    font-family: roboto;
+    font-size: 112px;
+    font-weight: bolder;
+    color: var(--on-primary);
+    height: auto;
+    background: none;
+    padding: 0px;
+    border-radius: 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+@media screen and (max-width: 767px) {
+    .title .text {
+        font-size: 56px;
+    }
+  }

@@ -1,0 +1,10 @@
+.frame {
+    color: var(--on-surface);
+    margin-bottom: 20px;
+    margin-top: 6px;
+    margin-left: 92px;
+    margin-right: 92px;
+    font-size: 16px;
+    font-family: Roboto;
+    text-decoration: none;
+}
