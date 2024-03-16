@@ -15,37 +15,49 @@ What are the positions available?
 /*Top-Right*/
 .position-1 {
     position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: inherit
 }
 
 .position-2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    padding: inherit
 }
 .position-3 {
     position: absolute;
-    right: 0%;
+    right: 0px;
+    top: 0px;
+    padding: inherit
 }
 .position-4 {
     position: absolute;
+    left: 0%;
     top: 50%;
     transform: translateY(-50%);
+    padding: inherit
 }
 .position-5 {
     position: absolute;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: inherit
 }
 .position-6 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 0%;
+    padding: inherit
 }
 .position-7 {
     position: absolute;
+    left: 0%;
     bottom: 0%;
+    padding: inherit
 }
 
 .position-8 {
@@ -53,6 +65,7 @@ What are the positions available?
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
+    padding: inherit
 }
 
 .position-9 {
@@ -60,4 +73,5 @@ What are the positions available?
     bottom: 0%;
     left: 100%;
     transform: translateX(-100%);
+    padding: inherit
 }

@@ -23,10 +23,13 @@
     animation-direction: forward;
 }
 
+.snackbar-text {
+    margin-right: 150px;
+}
 .snackbar-action {
     color: var(--inverse-primary);
     font-weight: bold;
-
+    text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
@@ -36,4 +39,8 @@
         min-width: 250px;
         height: 68px ;
     }
+    .snackbar-text {
+        margin-right: 75px;
+    }
+    
   }

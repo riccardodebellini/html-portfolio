@@ -7,21 +7,20 @@ Riccardo Debellini (riccardo.debellini@gmail.com - riccardo.debellini@liceobotto
 according to the Google guidelines on Material You available here "https://m3.material.io/components/navigation-rail/specs"
 
 */
-
-
 /*Normal FAB*/
 .FAB {
-    height: 24px;
-    width: 24px;
+    height: 56px;
+    width: 56px;
     background-color: var(--primary-container);
-    color: var(--on-primary-container) !important;
     border-radius: 16px;
-    padding: 16px;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-inline: auto;
+
+}
+
+.FAB-content {
     text-decoration: none !important;
-    text-align: center;
     font-family: 'Material Symbols Rounded';
     font-weight: normal;
     font-style: normal;
@@ -33,9 +32,8 @@ according to the Google guidelines on Material You available here "https://m3.ma
     word-wrap: normal;
     direction: ltr;
     -webkit-font-smoothing: antialiased;
+    color: var(--on-primary-container) !important;
 }
-
-
 
 /*Other FABs - ⚠️STILL UNDER DEVELOPEMENT - DO *NOT* USE⚠️*/
 .SmallFAB {
