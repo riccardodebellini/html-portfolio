@@ -1,0 +1,39 @@
+.snackbar {
+    /*POSITION*/
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*OTHER*/
+    padding-left: 16px;
+    padding-right: 8px;
+    height: 48px;
+    background-color: var(--inverse-surface);
+    color: var(--inverse-on-surface);
+    border-radius: 8px;
+    width: auto;
+    min-width: 600px;
+    font-size: 24;
+
+    /*ANIMATION*/
+    animation-name: entry-shade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: forward;
+}
+
+.snackbar-action {
+    color: var(--inverse-primary);
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 750px) {
+    .snackbar {
+        width: auto;
+        max-width: 300px;
+        min-width: 250px;
+        height: 68px ;
+    }
+  }

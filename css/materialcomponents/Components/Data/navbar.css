@@ -10,7 +10,8 @@ according to the Google guidelines on Material You available here "https://m3.ma
 
 /*MAIN COMPONENTS*/
 
-.navbar { /*the navigation rail itself*/
+/*the navigation rail itself*/
+.navbar { 
     width: 88px;
     height: 100%;
     position: fixed;
@@ -22,16 +23,29 @@ according to the Google guidelines on Material You available here "https://m3.ma
     text-align: center  ;
     background-color: var(--surface-container);
     font-family: Roboto,
-}
-.navbar .content { /*put inside this all the content of the rail*/
+} 
+
+/*(navbar position: TOP) put inside this all the content of the rail*/
+/* .navbar .content {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     height: auto;
     border-style: none;
     margin-top: 20px;
+} */
+/*(navbar position: CENTER) put inside this all the content of the rail*/
+.navbar .content { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    border-style: none;
 }
-.navbar .object { /*use this to specify the destinations - must contain icon, small spacer and text*/
+
+/*use this to specify the destinations - must contain icon, small spacer and text*/
+.navbar .object { 
     height: auto;
     position: relative;
     margin: 0px;
@@ -41,7 +55,8 @@ according to the Google guidelines on Material You available here "https://m3.ma
 
 /*INACTIVE COMPONENTS*/
 
-.navbar .text-inactive { /*use this for inactive destinations*/
+/*use this for inactive destinations*/
+.navbar .text-inactive { 
     position: relative;
     height: auto;
     margin: 0px;

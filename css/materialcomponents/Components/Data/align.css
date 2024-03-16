@@ -1,0 +1,63 @@
+/*
+Riccardo Debellini's HTML POSITION SYSTEM
+How does it work?
+-Put the tag in the class attribute, and you're done!
+What are the positions available?
+-    +-------+
+     | 1 2 3 |
+     | 4 5 6 |
+     | 7 8 9 |
+     +-------+
+*/
+
+
+
+/*Top-Right*/
+.position-1 {
+    position: absolute;
+}
+
+.position-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.position-3 {
+    position: absolute;
+    right: 0%;
+}
+.position-4 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.position-5 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.position-6 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
+.position-7 {
+    position: absolute;
+    bottom: 0%;
+}
+
+.position-8 {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.position-9 {
+    position: absolute;
+    bottom: 0%;
+    left: 100%;
+    transform: translateX(-100%);
+}

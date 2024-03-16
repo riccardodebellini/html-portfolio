@@ -1,3 +1,15 @@
+/*
+
+Material You 3 - Floating Action Buttons
+
+This component "Navigation Rail" has been built with 💚 by 
+Riccardo Debellini (riccardo.debellini@gmail.com - riccardo.debellini@liceobottoni.edu.it) 
+according to the Google guidelines on Material You available here "https://m3.material.io/components/navigation-rail/specs"
+
+*/
+
+
+/*Normal FAB*/
 .FAB {
     height: 24px;
     width: 24px;
@@ -25,7 +37,7 @@
 
 
 
-
+/*Other FABs - ⚠️STILL UNDER DEVELOPEMENT - DO *NOT* USE⚠️*/
 .SmallFAB {
     height: 40px;
     width: 40px;
