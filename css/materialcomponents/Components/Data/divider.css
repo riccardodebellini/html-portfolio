@@ -1,0 +1,6 @@
+/* Solid border */
+.divider {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: var(--outline-variant);
+  }

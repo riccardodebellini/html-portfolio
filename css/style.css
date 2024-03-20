@@ -115,3 +115,13 @@ table.notfound {
     -webkit-font-smoothing: antialiased;
   }
   
+.content-align {
+    width: 100%;
+    height: 100%;
+    position: initial;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}

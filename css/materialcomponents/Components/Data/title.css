@@ -17,7 +17,7 @@
       height: 250px;
     }
   }
-.title .text{
+.title-text{
     font-family: roboto;
     font-size: 112px;
     font-weight: bolder;
@@ -32,7 +32,7 @@
 
 }
 @media screen and (max-width: 767px) {
-    .title .text {
+    .title-text {
         font-size: 56px;
     }
   }

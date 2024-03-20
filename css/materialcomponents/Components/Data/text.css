@@ -8,3 +8,13 @@
     font-family: Roboto;
     text-decoration: none;
 }
+
+.frame-link {
+    color: var(--primary)
+}
+@media screen and (max-width: 767px) {
+    .frame {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
