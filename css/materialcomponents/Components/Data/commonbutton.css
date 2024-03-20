@@ -1,0 +1,88 @@
+/*ELEVATED BUTTON*/
+.commonbutton-elevated {
+    border-radius: 20px;
+    height: 40px !important;
+    color: var(--primary);
+    background-color: var(--surface-container-low);
+    width: fit-content;
+    padding-inline: 24px;
+    line-height: 40px !important;
+    font-weight: 400;
+    font-size: 24;
+    position: relative;
+}
+
+/*FILLED BUTTON*/
+.commonbutton-filled {
+    border-radius: 20px;
+    height: 40px;
+    color: var(--ON-primary);
+    background-color: var(--primary);
+    width: fit-content;
+    padding-inline: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 24;
+    position: relative;
+}
+.commonbutton-filled:hover {
+    background-color: var(--primary-container);
+    color: var(--on-primary-container);
+    transition: background-color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+
+/*FILLED TONAL BUTTON*/
+.commonbutton-filledtonal {
+    border-radius: 20px;
+    height: 40px;
+    color: var(--on-secondary-container);
+    background-color: var(--secondary-container);
+    width: fit-content;
+    padding-inline: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 24;
+    position: relative;
+}
+
+
+
+/*OUTLINED BUTTON*/
+.commonbutton-outlined {
+    border-radius: 20px;
+    height: 40px;
+    color: var(--primary);
+    background-color: none;
+    border-color: var(--outline);
+    border-width: 1px;
+    border-style: solid;
+    width: fit-content;
+    padding-inline: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 24;
+    position: relative;
+}
+.commonbutton-outlined:hover {
+    background-color: var(--surface-container);
+    transition: background-color 0.2s ease-in;
+}
+
+
+/*TEXT BUTTON*/
+.commonbutton-text {
+    border-radius: 20px;
+    height: 40px;
+    color: var(--primary);
+    /* background-color: none; */
+    background-color: none;
+    width: fit-content;
+    padding-inline: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 24;
+    position: relative;
+}
+
