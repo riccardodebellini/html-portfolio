@@ -12,6 +12,12 @@
 .frame-link {
     color: var(--primary)
 }
+
+.frame-footer {
+    color: var(--outline-variant);
+    
+}
+
 @media screen and (max-width: 767px) {
     .frame {
         margin-left: 0px;

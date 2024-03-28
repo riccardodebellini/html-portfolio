@@ -7,7 +7,7 @@
     width: fit-content;
     padding-inline: 24px;
     line-height: 40px !important;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24;
     position: relative;
 }
@@ -16,20 +16,14 @@
 .commonbutton-filled {
     border-radius: 20px;
     height: 40px;
-    color: var(--ON-primary);
+    color: var(--on-primary);
     background-color: var(--primary);
     width: fit-content;
     padding-inline: 24px;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24;
     position: relative;
-}
-.commonbutton-filled:hover {
-    background-color: var(--primary-container);
-    color: var(--on-primary-container);
-    transition: background-color 0.2s ease-in;
-    transition: color 0.2s ease-in;
 }
 
 
@@ -42,7 +36,7 @@
     width: fit-content;
     padding-inline: 24px;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24;
     position: relative;
 }
@@ -61,13 +55,9 @@
     width: fit-content;
     padding-inline: 24px;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24;
     position: relative;
-}
-.commonbutton-outlined:hover {
-    background-color: var(--surface-container);
-    transition: background-color 0.2s ease-in;
 }
 
 
@@ -81,7 +71,7 @@
     width: fit-content;
     padding-inline: 24px;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24;
     position: relative;
 }
